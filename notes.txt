@@ -1,0 +1,43 @@
+1) kai norime inicijuoti nauja projekta, atsakant i kiekviena klausima atskirai:
+a) npm init
+
+2) kai norime inicijuoti nauja projekta su default reiksmem:
+a) npm init -y
+
+3) kas po iniciavimo:
+a) sukurti faila .gitignore ir jame irasyti:
+node_modules
+.DS_Store
+.vscode
+b) npm i live-server
+c) package.json reikia parasyti:
+    script dalyje:
+    "dev": "live-server --port=3000",
+d) norint pasileisti projekta, terminale parasyti:
+    npm run dev
+
+4) kai norime testi darba su jau turinu projektu:
+a) npm run dev
+
+5) atsisiunciate projekta is Github ir kaip pasileisti:
+a) npm i
+b) npm run dev
+
+
+
+
+
+1) projekto iniciavimas
+npm init -y
+npm i live-server
+npm run dev
+
+2) pasileidimas is Github
+npm i
+npm run dev
+
+3) KAIP IŠVALYTI:
+npm cache clean --force
+rm -rf node_modules package-lock.json
+npm i
+npm run dev
