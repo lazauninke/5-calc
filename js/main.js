@@ -1,12 +1,16 @@
 /*
+
 Ka reikia zinoti:
+
 - koki noriu sugeneruoti turini? is kokiu duomenu?
 - kur ta turini ikisti? koks yra selector'ius?
+
 Kai norim perrasyti elemento tekstini turini:
 element.innerText = 'turinys';
 Prideti/pasalinti klases:
 element.classList.add('red');
 element.classList.remove('blue');
+
 */
 
 // susirandame vieta
